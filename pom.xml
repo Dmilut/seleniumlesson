@@ -12,6 +12,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <junit.version>5.7.0</junit.version>
         <selenium.version>3.141.59</selenium.version>
+        <log4j.version>1.2.17</log4j.version>
         <java.version>1.8</java.version>
         <maven.compiler.plugin>3.8.1</maven.compiler.plugin>
         <maven.surefire.plugin>3.0.0-M5</maven.surefire.plugin>
@@ -29,6 +30,11 @@
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
             <version>${selenium.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>log4j</groupId>
+            <artifactId>log4j</artifactId>
+            <version>${log4j.version}</version>
         </dependency>
     </dependencies>
 
